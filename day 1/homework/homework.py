@@ -1,0 +1,1 @@
+print("nikoloz "+"kobakhidze "+str(10)+str(145))
