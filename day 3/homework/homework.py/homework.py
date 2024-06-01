@@ -1,8 +1,9 @@
-print("nikoloz")
-print("kobakhidze")
-print(11)
-print("football and rugby")
-print("georgia")
+name = "nikoloz"
+last_name = "kobakhidze"
+age = "11"
+hobby = "football and rugby"
+country = "georgia"
+print(name , last_name, age , hobby , country)
 
 print(2084 + 2083)
 print(2139912 - 20381)
