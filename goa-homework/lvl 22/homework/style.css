@@ -1,0 +1,17 @@
+.a {
+    color: red;
+    background-color:rgb(93, 93, 160);
+    text-transform: uppercase;
+}
+
+.b {
+    color: dodgerblue;
+    background-color: lightseagreen;
+    text-transform: lowercase;
+}
+
+.c {
+    color: rgb(51, 255, 0);
+    background-color: firebrick;
+    text-transform: capitalize;
+}

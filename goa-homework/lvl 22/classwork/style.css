@@ -1,0 +1,47 @@
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2980b9;
+    font-style: initial;
+}
+
+h3 {
+    font-size: 22px;
+    color: #8e44ad;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    color: #34495e;
+    font: 700;
+    font-style: oblique;
+}
+
+ul {
+    color: darkolivegreen;
+}
+
+ol {
+    color: #2980b9;
+}
+
+li {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+a {
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: underline;
+    color: #c0392b;
+}
