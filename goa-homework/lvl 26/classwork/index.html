@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explore the World</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">მთავარი</a></li>
+                <li><a href="#tours">ტურები</a></li>
+                <li><a href="#gallery">გალერეა</a></li>
+                <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tours">
+        <h2>ტურები</h2>
+        <div class="tour">
+            <img src="tour1.jpg" alt="Tour 1">
+            <h3>ტური 1</h3>
+            <p>მოკლე აღწერა ტურის შესახებ.</p>
+            <a href="tour-details.html">დაწვრილებით</a>
+        </div>
+        <div class="tour">
+            <img src="tour2.jpg" alt="Tour 2">
+            <h3>ტური 2</h3>
+            <p>მოკლე აღწერა ტურის შესახებ.</p>
+            <a href="tour-details.html">დაწვრილებით</a>
+        </div>
+
+    </section>
+
+
+    <section id="gallery">
+        <h2>გალერეა</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Gallery Image 1">
+            <img src="image2.jpg" alt="Gallery Image 2">
+            <img src="image3.jpg" alt="Gallery Image 3">
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>კონტაქტი</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ელ. ფოსტა:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">შეტყობინება:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Explore the World. ყველა უფლება დაცულია.</p>
+        <p>სოციალური მედია: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+        <div class="partners">
+            <img src="partner1.png" alt="Partner 1">
+            <img src="partner2.png" alt="Partner 2">
+
+        </div>
+    </footer>
+
+    <section id="ratings">
+        <h2>მომხმარებლის შეფასებები</h2>
+        <div class="rating">
+            <p>ეს არის საუკეთესო ტურისტული სააგენტო! ⭐⭐⭐⭐⭐</p>
+        </div>
+
+    </section>
+</body>
+</html>

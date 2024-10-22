@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 119, 0);
+    font-family: cursive,monospace,'Courier New', Courier, monospace;
+    
+}
+
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
