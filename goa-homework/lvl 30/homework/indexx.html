@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Registration</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="first-name">
+          <i class="fas fa-user"></i>
+        </label>
+        <input type="text" id="first-name" name="first_name" placeholder="First Name" required />
+      </div>
+      
+      <div class="form-group">
+        <label for="last-name">
+          <i class="fas fa-user"></i>
+        </label>
+        <input type="text" id="last-name" name="last_name" placeholder="Last Name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="department">
+          <i class="fas fa-building"></i>
+        </label>
+        <select id="department" name="department" required>
+          <option value="" disabled selected>Select your Department/Office</option>
+          <option value="hr">Human Resources</option>
+          <option value="it">IT</option>
+          <option value="sales">Sales</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="username">
+          <i class="fas fa-user"></i>
+        </label>
+        <input type="text" id="username" name="username" placeholder="Username" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" id="password" name="password" placeholder="Password" required />
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">
+          <i class="fas fa-envelope"></i>
+        </label>
+        <input type="email" id="email" name="email" placeholder="E-Mail Address" required />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">
+          <i class="fas fa-phone"></i>
+        </label>
+        <input type="tel" id="phone" name="phone" placeholder="(639)" required />
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
