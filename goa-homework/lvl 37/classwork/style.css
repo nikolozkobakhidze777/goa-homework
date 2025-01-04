@@ -1,0 +1,17 @@
+.a1 {
+    writing-mode: vertical-rl;
+    -webkit-border-before: 5px dashed blue;
+}
+
+.a2 {
+    margin: 0;
+    font-size: 4em;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ff0000;
+}
+
+.a3 {
+    margin: 0;
+    font-size: 3em;
+    -webkit-text-fill-color: green;
+}
