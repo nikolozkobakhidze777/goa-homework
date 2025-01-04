@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    transition: 2
+}
+
+img {
+    width: 300px;
+    height: auto;
+    transition: 2
+}
+
+
+a:hover {
+    transform: rotate(30deg) scale(1.2);
+}
+
+img:hover {
+    transform: scale(1.2);
+}

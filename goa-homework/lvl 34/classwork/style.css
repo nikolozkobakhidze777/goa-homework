@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.content1 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.content2 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: red;
+}
+
+.content3 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+.content4 {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: green;
+}
+
+.content1:hover {
+    transform: scale(2);
+}
+
+.content2:hover {
+    translate: 100px;
+}
+
+.content3:hover {
+    transform: skew(20deg);
+}
+
+.content4:hover {
+    transform: rotate(45deg);
+}

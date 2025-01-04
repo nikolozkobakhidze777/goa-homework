@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ბოქსის Hover ეფექტი</title>
+    <style>
+        /* ბოქსის კონტეინერი */
+        .box-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* ბოქსის სტილი */
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* hover ეფექტი */
+        .box:hover {
+            transform: scale(1.1);
+            background-color: lightcoral;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ბოქსის Hover ეფექტი</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+    <div class="box-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
