@@ -1,0 +1,19 @@
+ul {
+    list-style-position: outside;
+}
+
+ul li:first-child, 
+ul li:last-child {
+    list-style-type: georgian;
+    list-style-position: inside;
+}
+
+ul li:nth-child(odd):not(:first-child):not(:last-child) {
+    list-style-type: lower-roman;
+    list-style-position: outside;
+}
+
+ul li:nth-child(even) {
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
