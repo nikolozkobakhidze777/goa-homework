@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    display: grid;
+    gap: 30px;
+  }
+  
+  .hover-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hover-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .hover-link {
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .hover-link:hover {
+    color: #c0392b;
+  }
+  
+  .scale-img {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .scale-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover-text {
+    color: #2c3e50;
+    transition: color 0.4s ease;
+  }
+  
+  .hover-text:hover {
+    color: #16a085;
+  }
+  
+  .border-box {
+    border: 2px solid #555;
+    padding: 10px;
+    transition: border-width 0.3s ease;
+  }
+  
+  .border-box:hover {
+    border-width: 6px;
+  }
+  
+  .press-btn {
+    padding: 10px 20px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+  
+  .press-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .fade-box {
+    background-color: #f1c40f;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .fade-box:hover {
+    opacity: 0.5;
+  }
+  
+  .padding-box {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px;
+    transition: padding 0.3s ease;
+  }
+  
+  .padding-box:hover {
+    padding: 40px;
+  }
+  
+  .rotate-icon {
+    font-size: 2rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-icon:hover {
+    transform: rotate(15deg);
+  }
+  
+  .shadow-card {
+    padding: 20px;
+    background-color: #ecf0f1;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .shadow-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  
