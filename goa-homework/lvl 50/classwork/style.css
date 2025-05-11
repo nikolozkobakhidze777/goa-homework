@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    max-width: 75%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@media (max-width: 425px) {
+    p {
+        font-size: 25px;
+        background-color: black;
+        color: green;
+    }
+}
+
+@media (max-width: 300px) {
+    p {
+        font-size: 20px;
+        background-color: black;
+        color: orange;
+    }
+}
