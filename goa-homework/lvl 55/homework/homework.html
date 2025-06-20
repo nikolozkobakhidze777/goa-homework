@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h2 id="result1"></h2>
+  <input type="number" id="ageInput">
+  <input type="text" id="phraseInput">
+  <button onclick="task1()">გაგზავნა</button>
+
+  <br><br>
+
+  <label for="rangeInput">Current value: <span id="rangeValue">50</span></label>
+  <input type="range" id="rangeInput" min="0" max="100" value="50" oninput="task2()">
+
+  <br><br>
+
+  <h1 id="greeting"></h1>
+  <input type="text" id="nameInput">
+  <input type="text" id="emojiInput">
+  <button onclick="task3()">მოგესალმებით</button>
+
+  <br><br>
+
+  <textarea id="messageInput"></textarea>
+  <button onclick="task4()">აჩვენე შეტყობინება</button>
+  <p id="messageResult"></p>
+
+  <br><br>
+
+  <input type="number" id="num1">
+  <input type="number" id="num2">
+  <button onclick="task5()">გამოთვლა</button>
+  <h2 id="sumResult"></h2>
+
+  <br><br>
+
+  <input type="text" id="textLengthInput">
+  <button onclick="task6()">სიმბოლოების რაოდენობა</button>
+  <p id="lengthResult"></p>
+
+  <br><br>
+
+  <input type="text" id="colorInput">
+  <button onclick="task7()">შეცვალე ფონი</button>
+
+</body>
+</html>
