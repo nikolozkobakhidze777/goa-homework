@@ -1,0 +1,13 @@
+#colorBox {
+  width: 150px;
+  height: 100px;
+  background-color: lightblue;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#hideDiv {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
